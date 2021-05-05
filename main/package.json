@@ -16,5 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/hagevvashi-info/hagevvashi.info.git",
     "directory": "main"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@types/react": "^17.0.5",
+    "typescript": "^4.2.4"
   }
 }
