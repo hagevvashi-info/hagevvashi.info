@@ -8,7 +8,12 @@
   ],
   "scripts": {
     "add": "npm install --package-lock-only --no-package-lock --prefix",
-    "postadd": "npm install"
+    "postadd": "npm install",
+    "format:check": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
   },
   "repository": {
     "type": "git",
