@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hagevvashi/hagevvashi.info.git"
+    "url": "git+https://github.com/hagevvashi-info/hagevvashi.info.git"
   },
   "author": "hagevvashi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hagevvashi/hagevvashi.info/issues"
+    "url": "https://github.com/hagevvashi-info/hagevvashi.info/issues"
   },
-  "homepage": "https://github.com/hagevvashi/hagevvashi.info#readme"
+  "homepage": "https://github.com/hagevvashi-info/hagevvashi.info#readme"
 }

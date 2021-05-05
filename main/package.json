@@ -1,5 +1,5 @@
 {
-  "name": "@hagevvashi.info/main",
+  "name": "@hagevvashi-info/main",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hagevvashi/hagevvashi.info.git",
+    "url": "git+https://github.com/hagevvashi-info/hagevvashi.info.git",
     "directory": "main"
   }
 }
