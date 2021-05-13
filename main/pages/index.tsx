@@ -1,9 +1,10 @@
 import Head from "next/head";
-import { Box } from "@chakra-ui/react";
-import { Header } from "../components/Header/Header";
+import { Box, useColorMode } from "@chakra-ui/react";
+import { Header } from "@hagevvashi-info/components";
 import { CommonMeta } from "../components/CommonMeta";
 
 export default function Home() {
+  const { colorMode } = useColorMode();
   return (
     <>
       <Head>
@@ -15,7 +16,7 @@ export default function Home() {
         <CommonMeta />
       </Head>
       <Header />
-      <Box>home</Box>
+      <Box>home | {colorMode}</Box>
     </>
   );
 }

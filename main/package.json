@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "type-check": "tsc -p . --noEmit"
   },
   "dependencies": {
+    "@hagevvashi-info/components": "^0.1.0",
     "@chakra-ui/icons": "^1.0.13",
     "@chakra-ui/react": "^1.6.1",
     "next": "10.2.0",

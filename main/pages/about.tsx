@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Box } from "@chakra-ui/react";
-import { Header } from "../components/Header/Header";
+import { Header } from "@hagevvashi-info/components";
 import { CommonMeta } from "../components/CommonMeta";
 
 export default function About() {

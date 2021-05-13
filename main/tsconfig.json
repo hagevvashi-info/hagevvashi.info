@@ -1,27 +1,12 @@
 {
+  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "incremental": true,
-    "tsBuildInfoFile": "tsconfig.tsbuildinfo",
-    "target": "ESNEXT",
-    "jsx": "preserve",
-    "skipLibCheck": true,
-    "strict": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "lib": [],
-    "allowJs": false
+    "noEmit": true
   },
-  "include": ["**/*"],
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

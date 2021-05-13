@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "description": "",
   "workspaces": [
-    "main"
+    "main",
+    "components"
   ],
   "scripts": {
     "add": "npm install --package-lock-only --no-package-lock --prefix",
     "postadd": "npm install",
-    "dev": "cd main && npm run dev",
     "format:check": "prettier --check --ignore-path .gitignore .",
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
