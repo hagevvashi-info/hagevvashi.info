@@ -10,7 +10,6 @@ import {
   Popover,
   PopoverTrigger,
   PopoverContent,
-  useColorMode,
   useColorModeValue,
   HStack,
   useDisclosure,
@@ -179,14 +178,11 @@ const MobileNav = () => {
 
 export const Header = () => {
   const { isOpen, onToggle } = useDisclosure();
-  const { colorMode } = useColorMode();
-
   return (
-    <>
     <chakra.header>
       <Flex
-        // bg={useColorModeValue("white", "gray.800")}
-        // color={useColorModeValue("gray.600", "white")}
+        bg={useColorModeValue("white", "gray.800")}
+        color={useColorModeValue("gray.600", "white")}
         minH={"60px"}
         py={{ base: 2 }}
         px={{ base: 10 }}
@@ -234,7 +230,5 @@ export const Header = () => {
         <MobileNav />
       </Collapse>
     </chakra.header>
-    <Box>{colorMode}</Box>
-    </>
   );
 };
